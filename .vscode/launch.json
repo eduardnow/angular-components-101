@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:4200/#",
+      "port": 4200,
+      "webRoot": "${workspaceFolder}",
+      "runtimeArgs": ["12.16.2"],
+      "windows": {
+        "runtimeExecutable": "D:/Usuarios/eduacagu/AppData/Local/nvs/nvs.cmd"
+      },
+      "osx": { "runtimeExecutable": "nvs" },
+      "linux": { "runtimeExecutable": "nvs" }
+    },
+    {
+      "name": "Attach Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "url": "http://localhost:4200/#",
+      "webRoot": "${workspaceFolder}",
+      "port": 4200
+    }
+  ]
+}
