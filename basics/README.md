@@ -6,7 +6,7 @@ This project is the sample code of the Course "Angular Components for beginners"
 
 ## How to install
 
-1. Clone or download the project from https://github.com/kaikcreator/AngularComponentsForBeginners.
+1. Clone or download the project.
 
 2. From the project folder, run `npm install` to install all dependencies.
 
